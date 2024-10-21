@@ -1,0 +1,203 @@
+/*
+Theme Name: twenty-eight
+Theme URI: http://yourwebsite.com
+Author: Emon Miah
+Author URI: 
+Description: twenty-eight is a clean and modern WordPress theme designed for [niche or industry, e.g., bloggers, businesses, photographers, etc.]. It’s perfect for creating [specific types of websites, e.g., professional portfolios, e-commerce sites, etc.], with a responsive design that ensures your site looks great on all devices.
+
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive, custom-background
+Text Domain: twenty-eight
+*/
+/* ========== FRONT PAGE STYLES ========== */
+
+/* General Styles */
+main {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #0073aa;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f5f5f5;
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url('path-to-hero-image.jpg'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.hero .button {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .button:hover {
+    background-color: #005177;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 80px 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* Services Section */
+.services {
+    background-color: #0073aa;
+    color: white;
+    padding: 80px 20px;
+}
+
+.services .service-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.services .service-item {
+    flex: 1;
+    padding: 20px;
+    background-color: #005177;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.services .service-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.services .service-item p {
+    font-size: 1rem;
+}
+
+.services .service-item:hover {
+    transform: scale(1.05);
+}
+
+/* Blog Posts Section */
+.recent-posts {
+    background-color: #f5f5f5;
+    padding: 80px 20px;
+}
+
+.post-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.post {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.post h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0073aa;
+}
+
+.post p {
+    font-size: 1rem;
+}
+
+.post a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.post:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 80px 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contact .button {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact .button:hover {
+    background-color: #005177;
+}
+
+/* Buttons General */
+.button {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005177;
+}
